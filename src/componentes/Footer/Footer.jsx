@@ -30,6 +30,9 @@ const Footer = () => {
                             <label  className="form-label">Mensaje</label>
                             <textarea className="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                         </div>
+                        <div>
+                            <button className="btn btn-success mb-4" type="submit">Enviar</button>
+                        </div>
                     </div>
                     <div className='col-6'>
                         <h2>Donde estamos?</h2>
