@@ -1,0 +1,16 @@
+.fondo{
+    background-color: rgb(100, 93, 93);
+    height: 100px;
+}
+.logo{
+    height: 70px;
+    width: 100px;
+    margin: 10px;
+}
+.fondo1{
+    background-color: rgb(100, 93, 93);
+    height: 50px;
+}
+.mapa{
+    width: 100%;
+}
