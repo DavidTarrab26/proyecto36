@@ -10,20 +10,17 @@ const Nav = () => {
                 <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <Link className="nav-link" to="/"><img src={logo} className='logo'/></Link>
+                <Link className="nav-link" to="proyecto36/"><img src={logo} className='logo'/></Link>
                 
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                    <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+                    <Link className="nav-link" to="proyecto36/futbol">Futbol</Link>
                     </li>
                     <li className="nav-item">
-                    <Link className="nav-link" to="/futbol">Futbol</Link>
+                    <Link className="nav-link" to="proyecto36/tenis">Tenis</Link>
                     </li>
                     <li className="nav-item">
-                    <Link className="nav-link" to="/tenis">Tenis</Link>
-                    </li>
-                    <li className="nav-item">
-                    <Link className="nav-link" to="/voley">Voley</Link>
+                    <Link className="nav-link" to="proyecto36/voley">Voley</Link>
                     </li>
                 </ul>
                 <form className="d-flex">

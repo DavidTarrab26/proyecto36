@@ -13,10 +13,10 @@ function App() {
     <Router>
       <Nav />
       <Routes>
-        <Route path="/" element={ <Inicio /> } />
-        <Route path="/futbol" element={ <Futbol /> } />
-        <Route path="/tenis" element={ <Tenis /> } />
-        <Route path="/voley" element={ <Voley /> } />
+        <Route path="proyecto36/" element={ <Inicio /> } />
+        <Route path="proyecto36/futbol" element={ <Futbol /> } />
+        <Route path="proyecto36/tenis" element={ <Tenis /> } />
+        <Route path="proyecto36/voley" element={ <Voley /> } />
       </Routes>
       <Footer />
     </Router>

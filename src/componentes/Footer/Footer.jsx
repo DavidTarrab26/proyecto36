@@ -6,7 +6,7 @@ import mapa from '../../img/mapa.jpg'
 
 const Footer = () => {
     return ( 
-        <div>
+        <div className='container-fluid'>
             <div className='row'>
                 <div className='fondo container-fluid d-flex align-items-center'>
                     <div className='col-6'>
