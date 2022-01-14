@@ -7,14 +7,20 @@ import mapa from '../../img/mapa.jpg'
 const Footer = () => {
     return ( 
         <div>
-            <div className='fondo container-fluid d-flex align-items-center'>
-                <h3 className=''>Seguinos en nuestras redes sociales</h3>
-                <div className='justify-content-end'>
-                    <img className='logo' src={ig}/>
-                    <img className='logo' src={yt}/>
-                    <img className='logo' src={fb}/>
+            <div className='row'>
+                <div className='fondo container-fluid d-flex align-items-center'>
+                    <div className='col-6'>
+                        <h3>Seguinos en nuestras redes sociales</h3>
+                    </div>
+                    
+                    <div className='justify-content-end col-6'>
+                        <img className='logo' src={ig}/>
+                        <img className='logo' src={yt}/>
+                        <img className='logo' src={fb}/>
+                    </div>
                 </div>
             </div>
+            
             <div className='d-flex justify-content-center'>
                 <div className='container row shadow'>
                     <div className='col-6'>
@@ -40,9 +46,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='fondo1 container-fluid d-flex align-items-center '>
-                <p>2022</p>
-                <p>Programa desde tu casa</p>
+            <div className='fondo1 container-fluid text-center'>
+                <p className='py-3'>2022 rograma desde tu casa</p>
             </div>
         </div>    
      );
